@@ -1,0 +1,208 @@
+/* Обнуляющий стиль */
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+* , *: before,*: after{
+	moz-box-sizing: border box;
+	webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a: active{outline: none;}
+
+nav,footer,header,aside{dispaly:block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	*ms-text-size-adjust: 100%;
+	*moz-text-size-adjust: 100%;
+	*webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input:: ms-clear{display: none;}
+button{cursor: pointer;}
+button:: moz-focus-inner {padding:0;border:0;}
+a, a: visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul-li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+/* my cod */
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: minmax(100px, auto);
+	grid-gap: 1em;
+
+}
+
+.wrapper div {
+	background-color: yellow;
+	padding: 1em;
+}
+
+.box-1 {
+	grid-column: 1/-2;
+	grid-row: 1/3;
+	background: url(img/4.jpeg) no-repeat center center;
+	background-size: cover; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.box-1 p {
+	font-size: 2rem;
+	text-shadow: 0px 0px 15px #000;
+	color: #fff;
+}
+
+.box-2 {
+	background-image: url(img/logo-img.jpeg);
+	grid-column: -2/-1;
+	grid-row: 1/5;
+	
+}
+
+.forma h2 {
+	color: #146fd1;
+	font-weight: bolder;
+}
+
+.box-2 .forma {
+	border: 3px solid #000;
+	background-color: ##c2d6c2;
+	padding: 5px;
+	font-size: 1.2em;
+	font-style: italic;
+}
+
+.box-2 .forma p {
+	color: #146fd1;
+	font-weight: bolder;
+	text-shadow: 5px 2px 5px #000;
+}
+
+.box-2 .forma input {
+	border: 2px solid #146fd1;
+}
+
+.box-2 .forma button {
+	width: 100px;
+  	height: 40px;
+  	line-height: 42px;
+  	padding: 0;
+  	border: none;
+  	background: #146fd1;
+  	background: linear-gradient(0deg, #146fd1 0%, #fff 100%);
+}
+
+.box-2 .forma button:hover {
+	background: #14d1b1;
+  	background: linear-gradient(0deg, #14d1b1 0%, #fff 100%);
+}
+
+/*  Box-3,  right section */
+
+.box-3 {
+	grid-column: 1/-2;
+	grid-row: 3/6;
+}
+
+
+.box-3 .included {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap:0.5em;
+	grid-auto-rows: 30vh;
+}
+
+.box-3 .included .image:hover {
+	-moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+
+
+.box-3 .included .image-1 {
+	background: url(img/1.jpg) no-repeat center center;
+	background-size: cover; 
+}
+
+.box-3 .included .image-2 {
+	background: url(img/2.jpg) no-repeat center center;
+	background-size: cover; 
+}
+
+
+.box-3 .included .image-3 {
+	background: url(img/3.jpeg) no-repeat center center;
+	background-size: cover; 
+}
+
+
+.box-3 .included .image-4 {
+	background: url(img/4.jpeg) no-repeat center center;
+	background-size: cover; 
+}
+
+
+.box-3 .included .image-5 {
+	background: url(img/5.jpeg) no-repeat center center;
+	background-size: cover; 
+}
+
+
+.box-3 .included .image-6 {
+	background: url(img/6.jpeg) no-repeat center center;
+	background-size: cover; 
+}
+
+
+.box-3 .included .image-7 {
+	background: url(img/7.jpeg) no-repeat center center;
+	background-size: cover; 
+}
+
+
+.box-3 .included .image-8 {
+	background: url(img/8.jpeg) no-repeat center center;
+	background-size: cover; 
+}
+
+
+.box-4 {
+	
+}
+
+
+
+.box-5 {
+	grid-column: 1/-1;
+}
+
+.header {
+
+}
+
+
+
+
+/*  */
+
+
