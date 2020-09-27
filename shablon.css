@@ -85,6 +85,7 @@ body {
 
 button {
   margin: 20px;
+
 }
 
 .custom-btn {
@@ -240,6 +241,7 @@ background: linear-gradient(0deg, #f7bd1b 0%, #fa1811 100%);
   /*  Meteor  */
 .header-img {
 	transform: rotate(-45deg);
+	cursor: pointer;
 }
 
 
@@ -356,6 +358,22 @@ background: linear-gradient(0deg, #f7bd1b 0%, #fa1811 100%);
 	grid-column: 1/-1;
 	grid-row: 3;
 }
+
+.parallax {
+  /* The image used */
+  background-image: url("img/earth2.jpeg");
+
+  /* Set a specific height */
+  min-height: 700px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 
 
 .box-4 {
