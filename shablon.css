@@ -379,6 +379,62 @@ background: linear-gradient(0deg, #f7bd1b 0%, #fa1811 100%);
 .box-4 {
 	grid-column: 1/-1;
 	grid-row: 4;
+	display: flex;
+	justify-content: center;
+}
+
+/* блок форма */
+.log-in {
+	height: 100%;
+	width: 320px;
+	background-color: #0009;
+	text-align: center;
+	border: 4px solid #d68204;
+}
+
+
+
+/* Текст формы */
+p {
+	color: #fff;
+	margin-bottom: 4px;
+}
+
+/*  настройка поля для ввода */
+.enter {
+	border: 2px solid #d68204;
+	border-radius: 5px;
+	color: #1f0d23;
+	padding: 4px;
+}
+
+
+.enter:focus {
+	background-color: #9c6ff7;
+	transform: scale(1.1);
+}
+
+
+.button-login {
+	border: 2px solid #d68204 ;
+	padding: 4px;
+}
+
+
+.button-login:hover {
+	transform: scale(1.2);
+	background-color: #000;
+	color:#fff;
+}
+
+.file-login {
+	margin: 15px;
+	border: 2px solid #d68204;
+}
+
+.level-login {
+	margin: 15px;
+	border: 2px solid #d68204;
 }
 
 

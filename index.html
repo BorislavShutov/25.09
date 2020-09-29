@@ -24,7 +24,42 @@
 			</div>
 			<div class="box box-3 parallax">
 			</div>
-			<div class="box box-4">4</div>
+			<div class="box box-4">
+				<form action="#" method="post" enctype="multipart/form-data" class="log-in">
+				<div>
+					<p>Namme</p>
+					<input class="enter" tabindex="1" name="username" placeholder="Name" type="text"/>
+				</div>
+				<div>
+					<p>Password</p>
+					<input class="enter" tabindex="2" name="userpass" type="password"/>
+				</div>
+				<div>
+					<p>Number</p>
+					<input class="enter" tabindex="3" name="userphone" type="tel" value="+380 (99)" />
+				</div>
+				<div>
+					<p>Доп инфа</p>
+					<textarea class="enter" tabindex="8" name="text"></textarea>
+				</div>
+				<div class="file-login">
+					<p>Photo</p>
+					<input tabindex="9" type="file"/>
+				</div>
+				<div class="level-login">
+					<p>Level</p>
+					<select tabindex="10" name="color">
+						<option value="Junior">Junior</option>
+						<option value="Middle">Middle</option>
+						<option selected  value="Senior">Senior</option>
+					</select>
+				</div>
+				<div>
+					<p>Действие</p>
+					<button class="button-login" tabindex="11" type="submit">Отправить</button>
+					<button class="button-login"  tabindex="12" type="reset">Очистить</button>
+				</div>
+			</form></div>
 			<div class="box box-5">5</div>
 		</div>
 		<script src="anijs-min.js"></script>
